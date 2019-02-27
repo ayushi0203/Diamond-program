@@ -3,3 +3,18 @@
 <source src="SampleVideo_1280x720_1mb.mp4" type="">
 your browser does not support the vedio.org</video></div>
 https://www.sample-videos.com/
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<canvas id="myCanvas" width="200"height="100" style="border:1px solid #000000;">
+</canvas>
+<script> 
+var c=document.getElementById("myCanvas");
+var ctx=c.getContext("2d");
+ctx.fillStyle="#FF0000"
+ctx.drawRect(0,0,150,75);
+</script>
+</html>
